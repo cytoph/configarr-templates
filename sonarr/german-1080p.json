@@ -1,48 +1,51 @@
 {
-  "trash_id": "568e43e7e71346a48a2c0e95c20b3219",
-  "name": "[German] HD720 Bluray + WEB",
-  "trash_description": "German Quality Profile that covers:<br>- WEBDL: 720p<br>- Bluray: 720p",
+  "trash_id": "b2d8ef31a4c05f729d16ba3e5c8f1f22",
+  "name": "[German] 1080p",
+  "trash_description": "German storage-focused profile:<br>- Target: 1080p (Bluray + WEB), cutoff<br>- Fallback: 720p allowed below target",
   "group": 11,
   "trash_score_set": "german",
   "upgradeAllowed": true,
-  "cutoff": "Merged QPs",
+  "cutoff": "Merged 1080p",
   "minFormatScore": 0,
   "cutoffFormatScore": 35000,
   "minUpgradeFormatScore": 1,
   "items": [
-    { "name": "Unknown", "allowed": false },
-    { "name": "SDTV", "allowed": false },
     {
-      "name": "WEB 480p",
-      "allowed": false,
-      "items": ["WEBDL-480p", "WEBRip-480p"]
+      "name": "Merged 1080p",
+      "allowed": true,
+      "items": ["Bluray-1080p", "WEBDL-1080p", "WEBRip-1080p"]
     },
-    { "name": "DVD", "allowed": false },
-    { "name": "Bluray-480p", "allowed": false },
-    { "name": "Bluray-576p", "allowed": false },
-    { "name": "HDTV-720p", "allowed": false },
-    { "name": "HDTV-1080p", "allowed": false },
-    { "name": "Raw-HD", "allowed": false },
-    { "name": "Bluray-1080p Remux", "allowed": false },
-    { "name": "HDTV-2160p", "allowed": false },
+    {
+      "name": "Fallback 720p",
+      "allowed": true,
+      "items": ["Bluray-720p", "WEBDL-720p", "WEBRip-720p"]
+    },
+    { "name": "Bluray-2160p Remux", "allowed": false },
+    { "name": "Bluray-2160p", "allowed": false },
     {
       "name": "WEB 2160p",
       "allowed": false,
       "items": ["WEBDL-2160p", "WEBRip-2160p"]
     },
-    { "name": "Bluray-2160p", "allowed": false },
-    { "name": "Bluray-2160p Remux", "allowed": false },
+    { "name": "HDTV-2160p", "allowed": false },
+    { "name": "Bluray-1080p Remux", "allowed": false },
+    { "name": "Raw-HD", "allowed": false },
+    { "name": "HDTV-1080p", "allowed": false },
+    { "name": "HDTV-720p", "allowed": false },
+    { "name": "Bluray-576p", "allowed": false },
+    { "name": "Bluray-480p", "allowed": false },
+    { "name": "DVD", "allowed": false },
     {
-      "name": "Merged QPs",
-      "allowed": true,
-      "items": [
-        "WEBRip-720p",
-        "WEBDL-720p",
-        "Bluray-720p"
-      ]
-    }
+      "name": "WEB 480p",
+      "allowed": false,
+      "items": ["WEBDL-480p", "WEBRip-480p"]
+    },
+    { "name": "SDTV", "allowed": false },
+    { "name": "Unknown", "allowed": false }
   ],
   "formatItems": {
+    "German 1080p Booster": "9aa0ca0d2d66b6f6ee51fc630f46cf6f",
+    "1080p": "290078c8b266272a5cc8e251b5e2eb0b",
     "720p": "c99279ee27a154c2f20d1d505cc99e25",
     "German": "8a9fcdbb445f2add0505926df3bb7b8a",
     "German DL": "ed51973a811f51985f14e2f6f290e47a",
