@@ -1,0 +1,73 @@
+{
+  "trash_id": "a1c7de20f3b94e618c05a92d4b7f0e15",
+  "name": "[English] 1080p",
+  "trash_description": "English storage-focused profile for movies without a German dub:<br>- Target: 1080p (Bluray + WEB), cutoff<br>- Fallback: 720p allowed below target",
+  "group": 11,
+  "upgradeAllowed": true,
+  "cutoff": "Merged 1080p",
+  "minFormatScore": 0,
+  "cutoffFormatScore": 10000,
+  "minUpgradeFormatScore": 1,
+  "language": "Any",
+  "items": [
+    {
+      "name": "Merged 1080p",
+      "allowed": true,
+      "items": ["Bluray-1080p", "WEBDL-1080p", "WEBRip-1080p"]
+    },
+    {
+      "name": "Fallback 720p",
+      "allowed": true,
+      "items": ["Bluray-720p", "WEBDL-720p", "WEBRip-720p"]
+    },
+    { "name": "Raw-HD", "allowed": false },
+    { "name": "BR-DISK", "allowed": false },
+    { "name": "Remux-2160p", "allowed": false },
+    { "name": "Bluray-2160p", "allowed": false },
+    {
+      "name": "WEB 2160p",
+      "allowed": false,
+      "items": ["WEBDL-2160p", "WEBRip-2160p"]
+    },
+    { "name": "HDTV-2160p", "allowed": false },
+    { "name": "Remux-1080p", "allowed": false },
+    { "name": "HDTV-1080p", "allowed": false },
+    { "name": "HDTV-720p", "allowed": false },
+    { "name": "Bluray-576p", "allowed": false },
+    { "name": "Bluray-480p", "allowed": false },
+    {
+      "name": "WEB 480p",
+      "allowed": false,
+      "items": ["WEBDL-480p", "WEBRip-480p"]
+    },
+    { "name": "DVD-R", "allowed": false },
+    { "name": "DVD", "allowed": false },
+    { "name": "SDTV", "allowed": false },
+    { "name": "DVDSCR", "allowed": false },
+    { "name": "REGIONAL", "allowed": false },
+    { "name": "TELECINE", "allowed": false },
+    { "name": "TELESYNC", "allowed": false },
+    { "name": "CAM", "allowed": false },
+    { "name": "WORKPRINT", "allowed": false },
+    { "name": "Unknown", "allowed": false }
+  ],
+  "formatItems": {
+    "Line/Mic Dubbed": "c465ccc73923871b3eb1802042331306",
+    "HD Bluray Tier 01": "ed27ebfef2f323e964fb1f61391bcb35",
+    "HD Bluray Tier 02": "c20c8647f2746a1f4c4262b0fbbeeeae",
+    "HD Bluray Tier 03": "5608c71bcebba0a5e666223bae8c9227",
+    "WEB Tier 01": "c20f169ef63c5f40c2def54abaf4438e",
+    "WEB Tier 02": "403816d65392c79236dcb6dd591aeda4",
+    "WEB Tier 03": "af94e0fe497124d1f9ce732069ec8c3b",
+    "Repack/Proper": "e7718d7a3ce595f289bfee26adc178f5",
+    "Repack2": "ae43b294509409a6a13919dedd4764c4",
+    "Repack3": "5caaaa1c08c1742aa4342d8c4cc463f2",
+    "BR-DISK": "ed38b889b31be83fda192888e2286d83",
+    "Generated Dynamic HDR": "e6886871085226c3da1830830146846c",
+    "LQ": "90a6f9a284dff5103f6346090e6280c8",
+    "LQ (Release Title)": "e204b80c87be9497a8a6eaff48f72905",
+    "3D": "b8cd450cbfa689c0259a01d9e29ba3d6",
+    "Extras": "0a3f082873eb454bde444150b70253cc",
+    "AV1": "cae4ca30163749b891686f95532519bd"
+  }
+}
